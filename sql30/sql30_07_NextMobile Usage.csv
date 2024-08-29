@@ -1,4 +1,11 @@
-id,data_usage,data_plan
+
+SELECT 
+    id,
+    data_usage,
+    data_plan
+FROM [NextMobile Usage]
+WHERE 
+    data_usage / data_plan BETWEEN 0.5 AND 0.75
 003500M7Q93CKG2je2,46.4,74
 003500339Kgli7N5t9,24.33,63
 003500oS7XRqSuGyQ2,46.6,88
